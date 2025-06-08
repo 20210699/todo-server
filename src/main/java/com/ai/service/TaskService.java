@@ -95,7 +95,7 @@ public class TaskService {
                 .title(e.getTitle())
                 .description(e.getDescription())
                 .status(e.getStatus())
-                .dueDate(e.getDescription())
+                .dueDate(e.getDueDate().toString())
                 .createdAt(e.getCreatedAt().toLocalDateTime())
                 .updatedAt(e.getUpdatedAt().toLocalDateTime())
                 .build();
